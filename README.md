@@ -31,3 +31,25 @@ Since the data is self-reported by contractors through permit applications, ther
 <img width="571" alt="Screenshot 2024-10-19 at 10 32 36 AM" src="https://github.com/user-attachments/assets/d404f3e4-551f-4c5e-9e4f-66eec1129877">
 
 Given that the data is self-reported by contractors, there were some discrepancies in the dates between when permits were applied for and when they were issued. In several cases, permits appeared to be issued before the application date. As I don't believe Nashville employs time-traveling contractors, I attributed these anomalies to human error in the submission process. Consequently, some of the dates were considered irrelevant and excluded from the analysis.
+
+## Data Sources and Tools Used
+
+### Data Sources
+
+This project utilizes data published by data.nashville.gov, sourced from two Metro Nashville departments. The data is updated nightly at 2:00 a.m. Additionally, the Neighborhood Association Boundaries map is incorporated to provide geographical context.
+
+* Building Department Permit Applications: Includes data from the application process through to issuance, rejection, or withdrawal. However, it does not contain information on estimated construction costs.
+
+* Building Department Permits Issued: Provides a rolling three-year history of issued permits.
+
+### Tools
+
+* Python
+* Jupyter Notebook
+* PowerBI
+* MS Excel
+
+## Approach
+
+* ETL Process: I extracted data from data.nashville.gov to assess the structure and determine the necessary transformations for further analysis. The datasets were then loaded into Python for in-depth analysis and manipulation.
+* MVP Determination: I identified the minimum viable product (MVP) by selecting the most effective charts, graphs, and visuals for the analysis. This process also included planning the design and functionality of an interactive dashboard in Power BI.
