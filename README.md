@@ -24,10 +24,10 @@ What can we expect to see for Nashville's growth moving forward?
 
 <img width="573" alt="Screenshot 2024-10-19 at 10 29 10 AM" src="https://github.com/user-attachments/assets/83b0200f-aa8e-4999-b415-46be0117c3f3">
 
-Since the data used is self reported by contractors submitting the permit applications, there were issues with irrelevant data, most notably the zip codes. Some of the zip codes were not applicable to any of the city's zip codes, so they had to be removed from the data set. 
+Since the data is self-reported by contractors through permit applications, there were inconsistencies, particularly with the zip codes. Some of the zip codes provided did not correspond to any valid zip codes within the city and, as a result, had to be removed from the dataset to ensure accuracy. 
 
 ### Time Traveling Contractors
 
 <img width="571" alt="Screenshot 2024-10-19 at 10 32 36 AM" src="https://github.com/user-attachments/assets/d404f3e4-551f-4c5e-9e4f-66eec1129877">
 
-Again, since the data is self reported by contractors, there were some errors in the dates permits were issued from when they were applied for. Some of the dates showed that a permit was issued before days BEFORE the permit was applied for. Since I don't believe Nashville has any time traveling contractors, I attributed this to human error in the submission process, and some of the dates were deemed irrelevant. 
+Given that the data is self-reported by contractors, there were some discrepancies in the dates between when permits were applied for and when they were issued. In several cases, permits appeared to be issued before the application date. As I don't believe Nashville employs time-traveling contractors, I attributed these anomalies to human error in the submission process. Consequently, some of the dates were considered irrelevant and excluded from the analysis.
