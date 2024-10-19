@@ -53,3 +53,8 @@ This project utilizes data published by data.nashville.gov, sourced from two Met
 
 * ETL Process: I extracted data from data.nashville.gov to assess the structure and determine the necessary transformations for further analysis. The datasets were then loaded into Python for in-depth analysis and manipulation.
 * MVP Determination: I identified the minimum viable product (MVP) by selecting the most effective charts, graphs, and visuals for the analysis. This process also included planning the design and functionality of an interactive dashboard in Power BI.
+* Exploratory Data Analysis (EDA): During the exploratory data analysis phase, I identified irrelevant or null values, reviewed key statistics, and gained a deeper understanding of the dataset to inform the next steps.
+* Determined how I would need to subset the data to extract necessary information and data.
+* Generated visuals and ensured there was no irrelevant or missing data.
+* Created dashboard in PowerBI
+* Prepared presentation in Canva
